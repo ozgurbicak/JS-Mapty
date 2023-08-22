@@ -171,6 +171,16 @@ a:visited {
   display: none;
 }
 
+.btnReset {
+  margin: 4px 2px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  background-color: #00c46a;
+  padding: 2%;
+  width: 10rem;
+  display: inline-block;
+}
 .copyright {
   margin-top: auto;
   font-size: 1.3rem;
