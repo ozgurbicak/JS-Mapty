@@ -73,12 +73,14 @@ const inputDistance = document.querySelector('.form__input--distance');
 const inputDuration = document.querySelector('.form__input--duration');
 const inputCadence = document.querySelector('.form__input--cadence');
 const inputElevation = document.querySelector('.form__input--elevation');
+
 const resetButton = document
   .querySelector('.btnReset')
   .addEventListener('click', function () {
     localStorage.removeItem('workouts');
     location.reload();
   });
+
 class App {
   #map;
   #mapZoomLevel = 13;
